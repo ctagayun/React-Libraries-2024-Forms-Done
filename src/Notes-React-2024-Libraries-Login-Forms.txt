@@ -1,0 +1,39 @@
+https://www.robinwieruch.de/react-libraries/
+
+Bootstrap:
+   1. If created by create-vite
+      Once the installation is complete, we can include it in our app’s 
+       entry file in main.jsx :
+       // Bootstrap CSS
+       import "bootstrap/dist/css/bootstrap.min.css";
+       // Bootstrap Bundle JS
+       import "bootstrap/dist/js/bootstrap.bundle.min";
+
+   2. If React Project is created by create-react-app 
+      include it in our app’s entry file in index.js :
+      
+- Other Notes:
+    - remember instantiation of app.jsx happens in main.jsx
+    
+React Bootstrap: 
+   https://react-bootstrap.netlify.app/docs/forms/overview/
+
+Latest Version of Bootstrap:
+   https://getbootstrap.com/
+   https://getbootstrap.com/docs/5.3/getting-started/introduction/
+   npm i bootstrap@5.3.3
+
+FORM LIBRARIES IN REACT
+   - https://www.robinwieruch.de/react-libraries/#form-libraries-in-react
+  
+
+   - How to use Forms in React  - https://www.robinwieruch.de/react-form/
+       Sooner or later every React developer has to handle forms. The following 
+     tutorial will give you a comprehensive overview about forms in React. 
+     You will learn how to manage form state in React, the difference of controlled 
+     and uncontrolled forms (state vs reference), how to submit a form 
+     (e.g. callback handler), and how to reset a form (e.g. after submit). 
+     In addition you will learn about advanced topics such as dirty fields 
+     and validation in React forms.
+     
+    1. React Form by Example - https://www.robinwieruch.de/react-form/#react-form-by-example

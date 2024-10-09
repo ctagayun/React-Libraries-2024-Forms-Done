@@ -31,14 +31,14 @@ const LoginUnControlledForm = () => {
       <div>
         <label htmlFor="email">Email</label>
         {/* <input id="email" type="text" ref={emailRef} /> */}
-        <input id="email" type="text" />
+        <input className="formControl" id="email" type="text" />
       </div>
       <div>
         <label htmlFor="password">Password</label>
         {/* <input id="password" type="password" ref={passwordRef} /> */}
         <input id="password" type="password"  />
       </div>
-      <button type="submit">Submit</button>
+      <button className="btn btn-primary" type="submit">Submit</button>
     </form>
   );
 };
