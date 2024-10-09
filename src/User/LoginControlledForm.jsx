@@ -1,10 +1,21 @@
 
 import * as React from 'react';
 
-//While controlled forms are more popular in React, because they allow 
+//Note: Each change of the state comes with a re-render of the form.
+
+//The idiomatic way of using forms in React would be using React's 
+//declarative nature. We would use React's useState Hook to manage 
+//the form state ourselves. By updating this state with each input 
+//field's onChange handler, we can use the state (here: email and password) 
+//respectively by passing it to each input field. This way, each 
+//input field gets controlled by React and does not manage its internal 
+//native HTML state anymore:
+
+//While CONTROLLED FORMS ARE MORE POPULAR in React, because they allow 
 //you a better developer experience for managing the form's state 
-//(e.g. initial state, updating state), they are more performance intensive.
-// Each change of the state comes with a re-render of the form
+//(e.g. initial state, updating state), they are more performance 
+//intensive. Each change of the state comes with a re-render of the 
+//form
 
 const LoginControlledForm = () => {
 

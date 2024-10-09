@@ -2,9 +2,19 @@
 import * as React from 'react';
 
 //For an uncontrolled form, there are no re-renders
+//In React we can get access to HTML elements by attaching references 
+//to them. So whenever we want to access a HTML element in JSX, 
+//we would be using React's useRef Hook.
+
+//When to use Uncontrolled Form:
+//If we have a straightforward form where we do not need to fiddle 
+//with the form state, WE COULD GO WITH THE UNCONTROLLED FORM approach. 
+//However, the more IDIOMATIC REACT way would be using controlled forms.
+
 const LoginUnControlledForm = () => {
 
   //To access html elements use React's "useRef" hook
+  //To avoid the hassle read the values directly from the form's event
   const emailRef = React.useRef();
   const passwordRef = React.useRef();
 

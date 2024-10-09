@@ -9,6 +9,7 @@ import { LoginUnControlledForm } from './User/LoginUnControlledForm';
 import { LoginControlledForm } from './User/LoginControlledForm';
 import { LoginControlledFormUsingOneHandler } from './User/LoginControlledFormUsingOneHandler';
 import { LoginControlledFormSendingFormDataAsProp } from './User/LoginControlledFormSendingFormDataAsProp';
+import { LoginControlledFormStrategyHandleTooManyHandlers } from './User/LoginControlledFormStrategyHandleTooManyHandlers';
 
 //const API_ENDPOINT = 'https://hn.algolia.com/api/v1/search?query=';
 
@@ -25,8 +26,11 @@ const App = () => {
     {/* <LoginControlledFormUsingOneHandler>
     </LoginControlledFormUsingOneHandler> */}
 
-    <LoginControlledFormSendingFormDataAsProp>
-    </LoginControlledFormSendingFormDataAsProp>
+    {/* <LoginControlledFormSendingFormDataAsProp>
+    </LoginControlledFormSendingFormDataAsProp>  */}
+
+    <LoginControlledFormStrategyHandleTooManyHandlers>
+    </LoginControlledFormStrategyHandleTooManyHandlers>
     </>
   )
   
